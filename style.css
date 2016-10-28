@@ -10,7 +10,6 @@ body {
     background-image: url("http://www.ufunk.net/wp-content/uploads/2015/09/Mad-Max-Fury-Road.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    border: 1px solid black;
     box-sizing: border-box;
     padding: 0vh 10vh;
 }

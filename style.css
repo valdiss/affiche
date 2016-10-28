@@ -73,6 +73,12 @@ h4 {
     font-size: 0.5vh;
 }
 
+.bottom span{
+  display: block;
+  font-family: '3d', sans-serif;
+  font-size: 1.5vh;
+}
+
 @font-face {
     font-family: 'Titre';
     src: url('Plane Crash.ttf');
@@ -81,4 +87,9 @@ h4 {
 @font-face {
     font-family: 'day';
     src: url('Time Machino.ttf');
+}
+
+@font-face {
+    font-family: '3d';
+    src: url('Jacinto Sans.otf');
 }

@@ -10,6 +10,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     padding: 0vh 10vh;
+    box-sizing: border-box;
 }
 
 .acteur {

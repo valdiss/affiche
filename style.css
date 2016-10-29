@@ -9,8 +9,8 @@ body {
     background-image: url("http://www.ufunk.net/wp-content/uploads/2015/09/Mad-Max-Fury-Road.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    padding: 0vh 10vh;
-    /*box-sizing: border-box;*/
+    padding: 0vh 8.6vh;
+    height: 100vh;
 }
 
 .acteur {
@@ -20,12 +20,14 @@ body {
 ul {
     display: flex;
     justify-content: center;
+    margin: 2vh 0px 0px 0px;
+    padding: 0;
 }
 
 li {
     font-family: Titre, sans-serif;
     font-size: 2vh;
-    margin: 0px 20px;
+    margin: 0 3vh;
     color: rgba(245, 219, 38, 0.8);
     list-style-type: none;
 }
@@ -53,7 +55,7 @@ h3 {
     font-family: day, sans-serif;
     font-size: 3vh;
     color: rgba(16, 132, 152, 0.8);
-    margin-top: 5vh;
+    margin-top: 6vh;
 }
 
 h4 {
@@ -66,21 +68,21 @@ h4 {
 
 .bottom {
     display: flex;
-    justify-content: center;
 }
 
 .bottom li {
     font-size: 0.5vh;
 }
 
-.bottom span{
-  display: block;
-  font-family: '3d', sans-serif;
-  font-size: 1.5vh;
+.bottom span {
+    display: block;
+    font-family: '3d', sans-serif;
+    font-size: 1.5vh;
 }
 
-.art {
-  font-family: 'art', sans-serif;
+li.art {
+    font-family: 'art', sans-serif;
+    font-size: 1vh;
 }
 
 @font-face {

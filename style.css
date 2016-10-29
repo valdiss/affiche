@@ -5,7 +5,6 @@ body {
 }
 
 #affiche {
-    height: 100vh;
     background-size: contain;
     background-image: url("http://www.ufunk.net/wp-content/uploads/2015/09/Mad-Max-Fury-Road.jpg");
     background-position: center;

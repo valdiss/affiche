@@ -2,25 +2,24 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
+    background-color: black;
 }
 
 #affiche {
-    background-size: contain;
+    background-size: cover;
     background-image: url("http://www.ufunk.net/wp-content/uploads/2015/09/Mad-Max-Fury-Road.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    padding: 0vh 8.6vh;
-    height: 100vh;
 }
 
 .acteur {
-    margin-top: 70vh;
+  margin-top: 70vh;
 }
 
 ul {
     display: flex;
     justify-content: center;
-    margin: 2vh 0px 0px 0px;
+    margin: 2vh 0px 1vh 0px;
     padding: 0;
 }
 
@@ -68,6 +67,7 @@ h4 {
 
 .bottom {
     display: flex;
+    justify-content: center;
 }
 
 .bottom li {
